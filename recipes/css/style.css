@@ -2,14 +2,32 @@
 *{
   font-family:Lobster,sans-serif;
   box-sizing:border-box;
-}
-html{
+  }
+body{
   margin:0;
   padding:0;
-}
-body{
   min-height:100vh;
+  text-align:center;
+  background-color:hsl(0, 0%, 90%);
 }
 img{
   width:100%;
+}
+ul,ol,footer{
+  display:inline-block;
+  margin:0;
+  margin-bottom:1em;
+  padding:0;
+  text-align:left;
+}
+h1,h2,h3{
+  text-decoration-line:underline;
+  color:hsl(86, 87%, 32%);
+}
+a:hover{
+  color:red;
+}
+ol li:nth-last-of-type(1){
+  font-weight:bold;
+  color:orangered;
 }
