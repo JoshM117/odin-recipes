@@ -10,10 +10,15 @@ body{
   text-align:center;
   background-color:hsl(0, 0%, 90%);
 }
+.index{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
 img{
   width:100%;
 }
-ul,ol,footer{
+ul,ol{
   display:inline-block;
   margin:0;
   margin-bottom:1em;
